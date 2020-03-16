@@ -1,0 +1,10 @@
+mat-card {
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+mat-spinner {
+    position: relative;
+    margin:0 auto;
+}

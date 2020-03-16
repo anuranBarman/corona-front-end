@@ -1,0 +1,18 @@
+<mat-card>
+    <mat-card-subtitle style="text-align:left;">
+        Last Updated {{getLastTime()}}
+    </mat-card-subtitle>
+    <mat-card-content>
+        <mat-spinner style="margin:0 auto;" *ngIf="loading"></mat-spinner>
+        <div id="chartContainer" style="height: 370px; width: 100%; margin-left:auto;margin-right:auto;"></div>
+    </mat-card-content>
+</mat-card>
+<mat-card>
+    <mat-card-subtitle style="text-align:left;">
+        Last Updated {{getLastTime()}}
+    </mat-card-subtitle>
+    <mat-card-content>
+        <mat-spinner style="margin:0 auto;" *ngIf="loadingIndia"></mat-spinner>
+        <div id="chartContainer2" style="height: 370px; width: 100%; margin-left:auto;margin-right:auto;"></div>
+    </mat-card-content>
+</mat-card>
